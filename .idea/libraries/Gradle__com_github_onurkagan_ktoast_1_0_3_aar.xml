@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.onurkagan:ktoast:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/3d6c704ae5457677cc846824bbf5f699/jetified-ktoast-1.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/3d6c704ae5457677cc846824bbf5f699/jetified-ktoast-1.0.3/res" />
+      <root url="file://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/3d6c704ae5457677cc846824bbf5f699/jetified-ktoast-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../RunningAppYT/caches/modules-2/files-2.1/com.github.onurkagan/ktoast/1.0.3/4dcc33ae2b54fac8a82315ddef12216325e1567a/ktoast-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

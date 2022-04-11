@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kovachcode:timePickerWithSeconds:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/42aee1d1ec1bc8d1a3d4ad006f020f3e/jetified-timePickerWithSeconds-1.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/42aee1d1ec1bc8d1a3d4ad006f020f3e/jetified-timePickerWithSeconds-1.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../RunningAppYT/caches/transforms-2/files-2.1/42aee1d1ec1bc8d1a3d4ad006f020f3e/jetified-timePickerWithSeconds-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../RunningAppYT/caches/modules-2/files-2.1/com.kovachcode/timePickerWithSeconds/1.0.1/fac11eaffc87fd9d5075e1cf174e08ec749933a6/timePickerWithSeconds-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../RunningAppYT/caches/modules-2/files-2.1/com.kovachcode/timePickerWithSeconds/1.0.1/e795dd5b27da5fe5a455f4be8dbad94c7c7098b8/timePickerWithSeconds-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

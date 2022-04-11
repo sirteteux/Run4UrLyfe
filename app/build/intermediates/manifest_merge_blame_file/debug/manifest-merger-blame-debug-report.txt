@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.run4urlyfe.debug"
+4    android:versionCode="56"
+5    android:versionName="0.20.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:5:22-63
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission
+13-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:7:5-8:38
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:7:22-78
+15        android:maxSdkVersion="28" />
+15-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:8:9-35
+16    <uses-permission android:name="android.permission.ACTION_HEADSET_PLUG" />
+16-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:9:5-78
+16-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:9:22-75
+17
+18    <uses-feature
+18-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera.any"
+19-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:12:9-51
+20        android:required="false" />
+20-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:13:9-33
+21    <uses-feature
+21-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:14:5-16:36
+22        android:name="android.hardware.camera.autofocus"
+22-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:15:9-57
+23        android:required="false" />
+23-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:16:9-33
+24
+25    <application
+25-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:18:5-59:19
+26        android:allowBackup="true"
+26-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:19:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\andre\RunningAppYT\caches\transforms-2\files-2.1\e4e60fa01183f8bb008117a464bbdf63\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/ic_training_50dp_orange"
+29-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:20:9-57
+30        android:label="@string/app_name"
+30-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:21:9-41
+31        android:requestLegacyExternalStorage="true"
+31-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:22:9-52
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:23:9-40
+34
+35        <!-- android:preserveLegacyExternalStorage="true" for when requestLegacyExternalStorage will be removed -->
+36
+37        <activity
+37-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:26:9-36:20
+38            android:name="com.run4urlyfe.MainActivity"
+38-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:27:13-41
+39            android:configChanges="orientation|screenSize"
+39-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:28:13-59
+40            android:label="@string/app_name"
+40-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:29:13-45
+41            android:windowSoftInputMode="stateUnchanged" >
+41-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:30:13-57
+42            <intent-filter>
+42-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:31:13-35:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:32:17-69
+43-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:32:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:33:17-77
+45-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:33:27-74
+46
+47                <action android:name="android.intent.action.VIEW" />
+47-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:34:17-69
+47-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:34:25-66
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:37:9-39:50
+51            android:name="com.run4urlyfe.intro.MainIntroActivity"
+51-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:38:13-52
+52            android:theme="@style/Theme.Intro" />
+52-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:39:13-47
+53        <activity
+53-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:40:9-42:59
+54            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+54-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:41:13-76
+55            android:theme="@style/Base.Theme.AppCompat" />
+55-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:42:13-56
+56
+57        <meta-data
+57-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:44:9-46:60
+58            android:name="firebase_crash_collection_enabled"
+58-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:45:13-61
+59            android:value="@bool/FIREBASE_CRASH_ENABLED" />
+59-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:46:13-57
+60
+61        <provider
+62            android:name="androidx.core.content.FileProvider"
+62-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:49:13-62
+63            android:authorities="com.run4urlyfe.debug.fileprovider"
+63-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:50:13-64
+64            android:exported="false"
+64-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:51:13-37
+65            android:grantUriPermissions="true" >
+65-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:52:13-47
+66            <meta-data
+66-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:53:13-55:58
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:54:17-67
+68                android:resource="@xml/provider_paths" />
+68-->C:\Users\andre\Run4UrLyfe\app\src\main\AndroidManifest.xml:55:17-55
+69        </provider>
+70    </application>
+71
+72</manifest>
